@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CEP</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <form>
+        <div class="input-group">
+            <label for="cep">CEP</label>
+            <input name="cep" id="cep" type="text" />
+            <p id="cep-error"></p>
+        </div>
+        <div class="input-group">
+            <label for="logradouro">Logradouro</label>
+            <input name="logradouro" id="logradouro" type="text" />
+        </div>
+        <div class="input-group">
+            <label for="complemento">Complemento</label>
+            <input name="complemento" id="complemento" type="text" />
+        </div>
+        <div class="input-group">
+            <label for="bairro">Bairro</label>
+            <input name="bairro" id="bairro" type="text" />
+        </div>
+        <div class="input-group">
+            <label for="localidade">Localidade</label>
+            <input name="localidade" id="localidade" type="text" />
+        </div>
+        <div class="input-group">
+            <label for="uf">UF</label>
+            <input name="uf" id="uf" type="text" />
+        </div>
+        <div id="exibe-endereco"></div>
+    </form>
+    <script src="./main.js"></script>
+</body>
+</html>

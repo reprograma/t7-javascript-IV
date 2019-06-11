@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Login</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+</head>
+
+<body>
+  <div class="container padding">
+    <div class="columns">
+      <div class="column is-4 is-offset-4">
+        <div class="box">
+          <div class="title">Login</div>
+          <form id="login-form">
+            <div class="field">
+              <div class="control">
+                <label class="label">Usuário</label>
+                <input class="input" id="username" type="text" placeholder="Usuário">
+              </div>
+            </div>
+            <div class="field">
+              <div class="control">
+                <label class="label">Senha</label>
+                <input class="input" id="password" type="password" placeholder="Senha">
+              </div>
+            </div>
+            <div class="field">
+              <button type="submit" class="button is-success is-fullwidth">
+                <span id="login-text">Entrar</span>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./main.js"></script>
+</body>
+
+</html>

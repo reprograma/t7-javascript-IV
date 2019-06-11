@@ -1,0 +1,14 @@
+button{
+  padding:20px 40px;
+  font-size: 24px; 
+  margin:20px;
+}
+
+button i{
+  margin-right:15px;
+}
+
+button.pequeno{
+  padding: 10px 20px;
+  font-size: 14px;
+}
